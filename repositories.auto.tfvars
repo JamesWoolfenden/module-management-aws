@@ -529,5 +529,23 @@ repo = [{
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-snstoslack"
+    description          = "I think we can guess as to what this does"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "sns",
+      "slack",
+      "aws",
+      "module",
+      "terraform",
+    ]
   }
 ]
