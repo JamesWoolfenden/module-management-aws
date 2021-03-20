@@ -5,11 +5,6 @@ resource "github_actions_secret" "AWS_KEY" {
   plaintext_value = var.AWS_KEY
 }
 
-variable "AWS_KEY" {
-}
-
-variable "AWS_ACCESS_KEY_ID" {
-}
 
 resource "github_actions_secret" "AWS_ACCESS_KEY_ID" {
   count           = length(var.repo)

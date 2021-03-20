@@ -4,8 +4,8 @@ resource "github_repository_file" "validate_sh" {
   branch              = var.repo[count.index]["default_branch"]
   file                = "validate.sh"
   content             = file("./validate.sh")
-  commit_message      = "Managed by Terraform"
-  commit_author       = "James Woolfenden"
-  commit_email        = "james.woolfenden@gmail.com"
+  commit_message      = var.commit["message"]
+  commit_author       = var.commit["author"]
+  commit_email        = var.commit["email"]
   overwrite_on_create = true
 }

@@ -1,19 +1,20 @@
-repo = [{
-  name                 = "terraform-aws-aurora"
-  description          = "Basic Aurora module"
-  default_branch       = "master"
-  has_downloads        = true
-  has_issues           = true
-  has_projects         = true
-  has_wiki             = true
-  visibility           = "public"
-  vulnerability_alerts = true
-  topics = [
-    "aurora",
-    "aws",
-    "module",
-    "terraform",
-  ]
+repo = [
+  {
+    name                 = "terraform-aws-aurora"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = false
+    topics = [
+      "aurora",
+      "aws",
+      "module",
+    "terraform", ]
   },
   {
     name                 = "terraform-aws-athena"
@@ -25,6 +26,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "athena",
       "aws",
@@ -42,6 +44,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "appsync",
       "aws",
@@ -59,6 +62,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "activemq",
       "aws",
@@ -76,6 +80,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "ad",
       "aws",
@@ -93,6 +98,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "apigateway",
       "aws",
@@ -110,6 +116,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "artifactory",
       "bitnami",
@@ -130,6 +137,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "artifactory",
       "ecs",
@@ -149,6 +157,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "artifactory",
       "oss",
@@ -168,6 +177,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "auto-bastion",
       "aws",
@@ -185,6 +195,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "batch",
       "aws",
@@ -202,6 +213,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "budget",
       "aws",
@@ -219,6 +231,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cassandra",
       "aws",
@@ -236,6 +249,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "certificate-authority",
       "aws",
@@ -253,6 +267,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cloudfront",
       "aws",
@@ -270,6 +285,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cloudfront-compound",
       "aws",
@@ -288,6 +304,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cloudfront",
       "s3",
@@ -306,6 +323,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cloudtrail",
       "aws",
@@ -323,6 +341,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "artifactory",
       "oss",
@@ -341,6 +360,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "cloudwatch",
       "s3",
@@ -359,6 +379,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codeartifact",
       "aws",
@@ -376,6 +397,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -393,6 +415,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -414,6 +437,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -433,6 +457,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -452,6 +477,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -469,6 +495,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -486,6 +513,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -505,6 +533,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "aws",
@@ -522,6 +551,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "codebuild",
       "iam",
@@ -540,6 +570,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -556,6 +587,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "dlm",
@@ -572,12 +604,14 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-dynamodb"
     description          = "Basic Dynamodb module"
     default_branch       = "master"
@@ -587,13 +621,15 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "dynamodb",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-ebssnap"
     description          = "A module that implements automated snapshotting of EBS volumes"
     default_branch       = "master"
@@ -603,6 +639,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ebs",
@@ -620,6 +657,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ecr",
@@ -636,6 +674,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -651,6 +690,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -667,6 +707,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -684,6 +725,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -700,6 +742,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "elasticbeanstalk",
@@ -716,6 +759,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "elk",
@@ -733,6 +777,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "docker",
@@ -752,6 +797,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -769,6 +815,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -784,6 +831,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -799,6 +847,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ci",
@@ -815,6 +864,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -830,14 +880,17 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
       "terraform",
+      "building-block",
+      "kms"
     ]
     }, {
     name                 = "terraform-aws-lambda"
-    description          = "Basic Aurora module"
+    description          = "Basic lambda module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -845,14 +898,16 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-lambda-janitor"
-    description          = "Basic Aurora module"
+    description          = "lambda janitor"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -860,6 +915,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -867,7 +923,7 @@ repo = [{
     ]
     }, {
     name                 = "terraform-aws-lambda-redux"
-    description          = "Basic Aurora module"
+    description          = "Basic lambda module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -875,6 +931,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "lambda",
@@ -883,7 +940,7 @@ repo = [{
     ]
     }, {
     name                 = "terraform-aws-lambdalayer"
-    description          = "Basic Aurora module"
+    description          = "This is a small module to support lambda layers"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -891,6 +948,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "lambda",
@@ -900,7 +958,7 @@ repo = [{
     ]
     }, {
     name                 = "terraform-aws-lambdaslack"
-    description          = "Basic Aurora module"
+    description          = "This is a general AWS to slack  notifier, it owes much to https://github.com/arabold/aws-to-slack, but has been enhanced to work with Terraform"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -908,6 +966,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -923,6 +982,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "cloudwatch",
@@ -942,6 +1002,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -957,6 +1018,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -972,6 +1034,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -987,6 +1050,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1002,6 +1066,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1019,6 +1084,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "rds",
@@ -1035,6 +1101,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "postgres",
@@ -1052,6 +1119,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1067,6 +1135,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1082,6 +1151,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "buildingblocks",
@@ -1099,6 +1169,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "s3",
@@ -1116,6 +1187,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1131,6 +1203,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1146,6 +1219,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1161,6 +1235,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "slack",
@@ -1178,12 +1253,14 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-ssh-ssm"
     description          = "Secure Storage for SSH keys in AWS parameter store"
     default_branch       = "master"
@@ -1193,6 +1270,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ssh",
@@ -1210,6 +1288,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ssl",
@@ -1228,6 +1307,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1243,6 +1323,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "patching",
@@ -1252,7 +1333,7 @@ repo = [{
     ]
     }, {
     name                 = "terraform-aws-statebucket"
-    description          = "Basic Aurora module"
+    description          = "Contains the module, permissions and sample code to create a state bucket for further Terraform use."
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1260,6 +1341,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1275,6 +1357,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1290,6 +1373,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "s3",
@@ -1307,6 +1391,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "ci",
@@ -1324,6 +1409,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1339,6 +1425,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1354,6 +1441,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "network",
       "subnet",
@@ -1372,6 +1460,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1389,6 +1478,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "waf",
@@ -1396,7 +1486,8 @@ repo = [{
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-waf-regional"
     description          = "Waf-regional module"
     default_branch       = "master"
@@ -1406,6 +1497,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",
@@ -1422,6 +1514,7 @@ repo = [{
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = false
     topics = [
       "aws",
       "module",

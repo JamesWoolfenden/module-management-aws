@@ -13,9 +13,3 @@ resource "github_repository" "repositories" {
   vulnerability_alerts = var.repo[count.index]["vulnerability_alerts"]
   topics               = var.repo[count.index]["topics"]
 }
-
-
-
-variable "repo" {
-  type = list(any)
-}
