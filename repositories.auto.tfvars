@@ -531,6 +531,627 @@ repo = [{
     ]
   },
   {
+    name                 = "terraform-aws-dax"
+    description          = "Basic DAX module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-dlmautosnapshot"
+    description          = "Automates snapshots using the new DLM policy support in AWS and Terraform"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "dlm",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-documentdb"
+    description          = "Basic Documentdb module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-dynamodb"
+    description          = "Basic Dynamodb module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "dynamodb",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ebssnap"
+    description          = "A module that implements automated snapshotting of EBS volumes"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ebs",
+      "snapshots",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ecr"
+    description          = "A terraform module to create a container registry (ECR - Elastic Container Registry) in AWS"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ecr",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ecs"
+    description          = "Working model for using AWS ECS via Terraform"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-efs"
+    description          = "Basic EFS module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-elastic"
+    description          = "Provision an elasticsearch cluster from the AWS managed service"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "elasticsearch"
+    ]
+  },
+  {
+    name                 = "terraform-aws-elasticache"
+    description          = "Basic elasticache module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-elasticbeanstalk"
+    description          = "An elastic beanstalk module. Because."
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "elasticbeanstalk",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-elk"
+    description          = "A basic ELK stack in Terraform"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "elk",
+      "elasticsearch",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-fargate"
+    description          = "Terraform module to support work with AWS Fargate Containers"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "docker",
+      "fargate",
+      "containers",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-guardduty"
+    description          = "Basic Guardduty module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "guardduty"
+    ]
+  },
+  {
+    name                 = "terraform-aws-iamuser"
+    description          = "Basic IAM User module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-inspector"
+    description          = "A basic implementation for AWS inspector"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-jenkins"
+    description          = "Basic Jenkins module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ci",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-kinesis-stream"
+    description          = "Basic Kinesis Stream module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-kms"
+    description          = "Get your KMS keys here"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lambda"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lambda-janitor"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lambda-redux"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "lambda",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lambdalayer"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "lambda",
+      "layers",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lambdaslack"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-lex-lambda"
+    description          = "When working with lex and lambdas, we had a lot of resources associated to supporting one lambda, this just uses some sensible defaults to lighten the load."
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "cloudwatch",
+      "lambda",
+      "lex",
+      "metrics",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-media-convert-queue"
+    description          = "Basic media-convert-queue module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-msk"
+    description          = "Basic MSK module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-neptune"
+    description          = "Basic Neptune module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-organisations"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-pritunl-vpn-server"
+    description          = "Basic VPN module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "pritunl",
+      "vpn",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-rds"
+    description          = "Helps to deploy an RDS DB instance"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "rds",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-rdsinit"
+    description          = "Monitors RDS DB creation events and then populates the database according to custom script"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "postgres",
+      "rds",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-redshift"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-route53"
+    description          = "Basic Route53 module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-s3"
+    description          = "Contains the module, permissions and sample code to create a s3 bucket in AWS"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "buildingblocks",
+      "s3",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-security-buckets"
+    description          = "Contains a module that creates a location for keeping newly generated secure objects"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "s3",
+      "ssh",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-securityhub"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-servicecatalog"
+    description          = "Basic Servicecatalog module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-sns"
+    description          = "Basic SNS module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
     name                 = "terraform-aws-snstoslack"
     description          = "I think we can guess as to what this does"
     default_branch       = "master"
@@ -541,8 +1162,267 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "sns",
+      "aws",
       "slack",
+      "sns",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-sqs"
+    description          = "Basic SQS module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ssh-ssm"
+    description          = "Secure Storage for SSH keys in AWS parameter store"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ssh",
+      "ssm",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-sslcert"
+    description          = "Creates an SSL cert for you, in a Public Zone"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ssl",
+      "cert",
+      "validate",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ssm-bastion"
+    description          = "A quick simple bastion for AWS"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-ssmpatching"
+    description          = "A project to set-up SSM patch schedules"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "patching",
+      "ssm",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-statebucket"
+    description          = "Basic Aurora module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-statemachine"
+    description          = "Basic Statemachine module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-staticsite"
+    description          = "Basic Static Site module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "s3",
+      "s3-website",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-teamcity"
+    description          = "Spins up a new Teamcity Instance"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "ci",
+      "teamcity",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-trafficmirror"
+    description          = "Basic Trafficmirror module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-transitvpcspoke"
+    description          = "Transit VPC Spoke module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-vpc"
+    description          = "Creates a VPC and public and private sub-nets for a classic AWS VPC set-up"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "network",
+      "subnet",
+      "vpc",
+      "aws",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-vpc-peering"
+    description          = "For the Peering of VPCs"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "peer",
+      "vpc",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-waf-global"
+    description          = "WAF global module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "waf",
+      "global",
+      "module",
+      "terraform",
+    ]
+    }, {
+    name                 = "terraform-aws-waf-regional"
+    description          = "Waf-regional module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-workspaces"
+    description          = "Basic Workspaces module"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
       "aws",
       "module",
       "terraform",
