@@ -4,8 +4,8 @@ resource "github_repository_file" "Makefile" {
   branch              = var.repo[count.index]["default_branch"]
   file                = "example/examplea/Makefile"
   content             = file("./Makefile")
-  commit_message      = "Managed by Terraform"
-  commit_author       = "James Woolfenden"
-  commit_email        = "james.woolfenden@gmail.com"
-  overwrite_on_create = true
+  commit_message      = var.commit["message"]
+  commit_author       = var.commit["author"]
+  commit_email        = var.commit["email"]
+  overwrite_on_create = var.repo[count.index]["overwrite"]
 }
