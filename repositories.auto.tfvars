@@ -529,5 +529,23 @@ repo = [{
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-ec2"
+    description          = "ec2"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    topics = [
+      "codebuild",
+      "iam",
+      "aws",
+      "module",
+      "terraform",
+    ]
   }
 ]
