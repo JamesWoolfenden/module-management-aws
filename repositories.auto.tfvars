@@ -1538,4 +1538,21 @@ repo = [
       "terraform",
     ]
   }
+  {
+    name                 = "terraform-aws-sagemaker"
+    description          = "Basic Sagemaker module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = false
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  }
 ]
