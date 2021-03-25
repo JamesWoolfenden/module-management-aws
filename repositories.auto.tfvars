@@ -1522,9 +1522,9 @@ repo = [
     ]
   },
   {
-    name                 = "terraform-aws-ec2"
-    description          = "Basic ec2 module"
-    default_branch       = "master"
+    name                 = "terraform-aws-glue-crawler"
+    description          = "Basic glue crawler module"
+    default_branch       = "main"
     has_downloads        = true
     has_issues           = true
     has_projects         = true
@@ -1537,7 +1537,58 @@ repo = [
       "module",
       "terraform",
     ]
-  }
+  },
+  {
+    name                 = "terraform-aws-ecrpublic"
+    description          = "Public Registry"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-lb"
+    description          = "Load balancer"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-ec2"
+    description          = "Basic ec2 module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
   {
     name                 = "terraform-aws-sagemaker"
     description          = "Basic Sagemaker module"
@@ -1548,7 +1599,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
-    overwrite            = false
+    overwrite            = true
     topics = [
       "aws",
       "module",
