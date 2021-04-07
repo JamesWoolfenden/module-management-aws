@@ -1605,5 +1605,23 @@ repo = [
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-dns"
+    description          = "Its a DNS module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
   }
+
 ]
