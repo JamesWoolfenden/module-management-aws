@@ -1,4 +1,5 @@
 resource "github_repository" "repositories" {
+  # checkov:skip=CKV_GIT_1: Meant to be public
   count                = length(var.repo)
   name                 = var.repo[count.index]["name"]
   allow_merge_commit   = true
