@@ -7,11 +7,16 @@ variable "commit" {
 }
 
 variable "AWS_KEY" {
+  sensitive=true
 }
 
 variable "AWS_ACCESS_KEY_ID" {
+  sensitive=true
 }
 
+variable "INFRACOST_API_KEY" {
+  sensitive=true
+}
 
 variable "repo" {
   type = list(any)
