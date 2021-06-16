@@ -1734,6 +1734,60 @@ repo = [
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-security-alerts"
+    description          = "Its a security module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "bridgecrew",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-cognito-lite"
+    description          = "It's about auth"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-glacier"
+    description          = "It's about glacier"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
   }
-
 ]
