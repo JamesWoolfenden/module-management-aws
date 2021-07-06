@@ -1789,5 +1789,42 @@ repo = [
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-ssmdocument"
+    description          = "It's about ssm docs"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-cloudhsm"
+    description          = "It's about keys"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "hsm"
+    ]
   }
 ]
