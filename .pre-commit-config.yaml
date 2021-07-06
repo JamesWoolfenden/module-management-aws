@@ -62,7 +62,7 @@ repos:
       - id: tfsec
         entry: tfsec
         args:
-          - example/examplea
+          - .
         types:
           - terraform
         pass_filenames: false

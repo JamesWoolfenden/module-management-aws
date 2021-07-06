@@ -966,7 +966,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
-    target_dir           = "example/examplea"
+    target_dir           = "."
     topics = [
       "aws",
       "module",
