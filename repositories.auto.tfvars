@@ -1100,7 +1100,7 @@ repo = [
     ]
     }, {
     name                 = "terraform-aws-organisations"
-    description          = "Basic Aurora module"
+    description          = "Basic organisation module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1173,7 +1173,7 @@ repo = [
     ]
     }, {
     name                 = "terraform-aws-redshift"
-    description          = "Basic Aurora module"
+    description          = "Basic Redshift module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1187,6 +1187,7 @@ repo = [
       "aws",
       "module",
       "terraform",
+      "Redshift"
     ]
     }, {
     name                 = "terraform-aws-route53"
@@ -1245,7 +1246,7 @@ repo = [
     ]
     }, {
     name                 = "terraform-aws-securityhub"
-    description          = "Basic Aurora module"
+    description          = "Basic securityhub module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
