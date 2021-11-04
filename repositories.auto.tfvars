@@ -1098,7 +1098,8 @@ repo = [
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-organisations"
     description          = "Basic organisation module"
     default_branch       = "master"
@@ -1115,7 +1116,8 @@ repo = [
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-pritunl-vpn-server"
     description          = "Basic VPN module"
     default_branch       = "master"
@@ -1187,7 +1189,7 @@ repo = [
       "aws",
       "module",
       "terraform",
-      "Redshift"
+      "redshift"
     ]
     }, {
     name                 = "terraform-aws-route53"
@@ -1738,7 +1740,7 @@ repo = [
   },
   {
     name                 = "terraform-aws-security-alerts"
-    description          = "Its a security module"
+    description          = "It's a security module"
     default_branch       = "main"
     has_downloads        = true
     has_issues           = true
@@ -1825,7 +1827,26 @@ repo = [
       "aws",
       "module",
       "terraform",
-      "hsm"
+      "hsm",
+    ]
+  },
+  {
+    name                 = "terraform-aws-emr"
+    description          = "It's about EMR"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "emr",
     ]
   }
 ]

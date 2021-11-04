@@ -7,15 +7,15 @@ variable "commit" {
 }
 
 variable "AWS_KEY" {
-  sensitive=true
+  sensitive = true
 }
 
 variable "AWS_ACCESS_KEY_ID" {
-  sensitive=true
+  sensitive = true
 }
 
 variable "INFRACOST_API_KEY" {
-  sensitive=true
+  sensitive = true
 }
 
 variable "repo" {
