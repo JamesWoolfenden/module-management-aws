@@ -10,6 +10,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aurora",
       "aws",
@@ -27,6 +28,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "athena",
       "aws",
@@ -45,6 +47,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "appsync",
       "aws",
@@ -63,6 +66,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "activemq",
       "aws",
@@ -81,6 +85,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "ad",
       "aws",
@@ -99,6 +104,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "apigateway",
       "aws",
@@ -117,6 +123,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "artifactory",
       "bitnami",
@@ -138,6 +145,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "artifactory",
       "ecs",
@@ -158,6 +166,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "artifactory",
       "oss",
@@ -178,6 +187,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "auto-bastion",
       "aws",
@@ -196,6 +206,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "batch",
       "aws",
@@ -214,6 +225,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "budget",
       "aws",
@@ -232,6 +244,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cassandra",
       "aws",
@@ -250,6 +263,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "certificate-authority",
       "aws",
@@ -268,6 +282,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cloudfront",
       "aws",
@@ -286,6 +301,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cloudfront-compound",
       "aws",
@@ -305,6 +321,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cloudfront",
       "s3",
@@ -324,6 +341,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cloudtrail",
       "aws",
@@ -342,6 +360,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "artifactory",
       "oss",
@@ -361,6 +380,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "cloudwatch",
       "s3",
@@ -380,6 +400,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codeartifact",
       "aws",
@@ -398,6 +419,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -416,6 +438,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -438,6 +461,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -458,6 +482,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -478,6 +503,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -496,6 +522,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -514,6 +541,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -534,6 +562,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "aws",
@@ -552,6 +581,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "codebuild",
       "iam",
@@ -571,6 +601,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -588,6 +619,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "dlm",
@@ -605,6 +637,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -622,6 +655,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "dynamodb",
@@ -640,6 +674,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ebs",
@@ -658,6 +693,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ecr",
@@ -675,6 +711,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -691,6 +728,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -708,6 +746,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -726,6 +765,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -743,6 +783,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "elasticbeanstalk",
@@ -760,6 +801,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "elk",
@@ -778,6 +820,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "docker",
@@ -798,6 +841,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -816,6 +860,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -832,6 +877,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -848,6 +894,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ci",
@@ -865,6 +912,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -881,6 +929,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -899,6 +948,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -916,6 +966,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "."
     topics = [
       "aws",
       "module",
@@ -932,6 +983,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "lambda",
@@ -949,6 +1001,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "lambda",
@@ -967,6 +1020,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -983,6 +1037,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "cloudwatch",
@@ -1003,6 +1058,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1019,6 +1075,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1035,14 +1092,16 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-organisations"
-    description          = "Basic Aurora module"
+    description          = "Basic organisation module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1051,12 +1110,14 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
       "terraform",
     ]
-    }, {
+  },
+  {
     name                 = "terraform-aws-pritunl-vpn-server"
     description          = "Basic VPN module"
     default_branch       = "master"
@@ -1067,6 +1128,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1085,6 +1147,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "rds",
@@ -1102,6 +1165,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "postgres",
@@ -1111,7 +1175,7 @@ repo = [
     ]
     }, {
     name                 = "terraform-aws-redshift"
-    description          = "Basic Aurora module"
+    description          = "Basic Redshift module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1120,10 +1184,12 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
       "terraform",
+      "redshift"
     ]
     }, {
     name                 = "terraform-aws-route53"
@@ -1136,6 +1202,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1152,6 +1219,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "buildingblocks",
@@ -1170,6 +1238,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "s3",
@@ -1179,7 +1248,7 @@ repo = [
     ]
     }, {
     name                 = "terraform-aws-securityhub"
-    description          = "Basic Aurora module"
+    description          = "Basic securityhub module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -1188,6 +1257,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1204,6 +1274,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1220,6 +1291,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1236,6 +1308,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "slack",
@@ -1254,6 +1327,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1271,6 +1345,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ssh",
@@ -1289,6 +1364,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ssl",
@@ -1308,6 +1384,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1324,6 +1401,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "patching",
@@ -1342,6 +1420,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1358,6 +1437,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1374,6 +1454,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "s3",
@@ -1392,6 +1473,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "ci",
@@ -1410,6 +1492,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1426,6 +1509,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1442,6 +1526,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "network",
       "subnet",
@@ -1461,6 +1546,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1479,6 +1565,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "waf",
@@ -1498,6 +1585,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1515,6 +1603,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1532,6 +1621,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = false
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1549,6 +1639,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1566,6 +1657,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1583,6 +1675,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1600,8 +1693,28 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-imagebuilder"
+    description          = "Basic Imagebuilder module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "imagebuilder",
       "module",
       "terraform",
     ]
@@ -1617,10 +1730,123 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "dns",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-security-alerts"
+    description          = "It's a security module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "bridgecrew",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-cognito-lite"
+    description          = "It's about auth"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
       "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-glacier"
+    description          = "It's about glacier"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-ssmdocument"
+    description          = "It's about ssm docs"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  },
+  {
+    name                 = "terraform-aws-cloudhsm"
+    description          = "It's about keys"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "hsm",
+    ]
+  },
+  {
+    name                 = "terraform-aws-emr"
+    description          = "It's about EMR"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+      "emr",
     ]
   },
   {
@@ -1640,5 +1866,4 @@ repo = [
       "terraform",
     ]
   }
-
 ]
