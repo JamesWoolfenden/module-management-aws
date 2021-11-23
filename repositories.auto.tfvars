@@ -1860,6 +1860,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
@@ -1867,7 +1868,7 @@ repo = [
     ]
   },
   {
-    name                 = "terraform-aws-knetwork-firewall"
+    name                 = "terraform-aws-network-firewall"
     description          = "Its a firewall module"
     default_branch       = "main"
     has_downloads        = true
@@ -1877,6 +1878,7 @@ repo = [
     visibility           = "public"
     vulnerability_alerts = true
     overwrite            = true
+    target_dir           = "example/examplea"
     topics = [
       "aws",
       "module",
