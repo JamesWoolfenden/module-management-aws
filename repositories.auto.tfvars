@@ -1939,5 +1939,23 @@ repo = [
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-aws-alb"
+    description          = "Its a alb module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
   }
 ]
