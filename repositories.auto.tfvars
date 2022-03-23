@@ -1886,7 +1886,7 @@ repo = [
     ]
   },
   {
-    name                 = "terraform-aws-waf2"
+    name                 = "terraform-aws-waf2-regional"
     description          = "Its a waf2 module"
     default_branch       = "main"
     has_downloads        = true
