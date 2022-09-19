@@ -1958,4 +1958,23 @@ repo = [
       "terraform",
     ]
   }
+  ,
+  {
+    name                 = "terraform-aws-launchtemplate"
+    description          = "It's a launch template module"
+    default_branch       = "main"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    target_dir           = "example/examplea"
+    topics = [
+      "aws",
+      "module",
+      "terraform",
+    ]
+  }
 ]
